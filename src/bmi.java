@@ -16,5 +16,6 @@ public class bmi {
             System.out.println("OverWeight");
         }
         else System.out.println("Obese");
+        scanner.close();
     }
 }

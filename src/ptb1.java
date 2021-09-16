@@ -15,11 +15,12 @@ public class ptb1 {
 
         if(a==0){
             if(b==0){
-                System.out.println("pt co  vo so nghiem");
-            }else System.out.println("pt vo nghiem");
+                System.out.println("pt co  vo so n");
+            }else System.out.println("pt vo n");
         }else{
-            System.out.println("pt co nghiem la: "+(-b/a));
+            System.out.println("pt co n la: "+(-b/a));
         }
 
+        scanner.close();
     }
 }

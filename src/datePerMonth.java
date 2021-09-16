@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class datePerMonth {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("nhap vao thang: ");
+        System.out.println("input month: ");
         int month = scanner.nextInt();
         int day=0;
         switch (month) {
@@ -50,6 +50,7 @@ public class datePerMonth {
             default:
                 break;
         }
-        System.out.println("thang "+month+" co: "+day+" ngay");
+        System.out.println("month "+month+" co: "+day+" day");
+        scanner.close();
     }
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class namNhuan {
+public class leapYear {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int year = scanner.nextInt();
@@ -13,7 +13,8 @@ public class namNhuan {
             }
             else check=true;
         }
-        if(check) System.out.println("day la nam nhuan");
-        else System.out.println("day khong phai nam nhuan");
+        if(check) System.out.println("this is leap year");
+        else System.out.println("this is not a leap year");
+        scanner.close();
     }
 }

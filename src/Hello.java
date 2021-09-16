@@ -14,5 +14,7 @@ public class Hello {
         System.out.println("nhap vao chuoi a1");
         a1=bscanner.nextLine();
         System.out.println(a1);
+        scanner.close();
+        bscanner.close();
     }
 }
